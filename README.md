@@ -1,4 +1,15 @@
-# MalwLess Simulation Tool (MST)
+# Modified MalwLess Simulation Tool (MST)
+***************************************************************************************************************************************************************************************
+
+<p align="center">
+  
+<i>This is an altered version of Malwless software created by [n0dec](https://github.com/n0dec). It exists only because the main version is not supported any longer and doesn't work with the newest versions of Sysmon. 
+
+This version implements a simple workaround to fix this issue, it doesn't however improve the functionality in any other way. </i>
+</p>
+
+***************************************************************************************************************************************************************************************
+
 `MalwLess` is an open source tool that allows you to simulate system compromise or attack behaviours without running processes or PoCs. The tool is designed to test Blue Team detections and SIEM correlation rules. It provides a framework based on rules that anyone can write, so when a new technique or attack comes out you can write your own rules and share it a with the community.
 
 These rules can simulate [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) or [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell) events. `MalwLess` can parse the rules and write them directly to the Windows EventLog, then you can foward it to your event collector.
